@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --ext ts,yaml --exec 'ts-node' index.ts"
+    "startDev": "nodemon --ext ts,yaml --exec 'ts-node' index.ts",
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,11 @@
     "@types/node-fetch": "^2.1.2",
     "dotenv": "^6.1.0",
     "graphql-yoga": "^1.16.2",
+    "ts-node": "^7.0.1",
     "node-fetch": "^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.4",
-    "ts-node": "^7.0.1",
     "typescript": "^3.1.3"
   }
 }
