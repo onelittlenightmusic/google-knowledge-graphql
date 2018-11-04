@@ -1,25 +1,22 @@
-# ----Title
-GraphQL API for -----
-
-----のGraphQL API
+# knowledge-graph-graphql
+GraphQL API for Google Knowledge Graph API(REST)
 
 ## Data source and Licence
 
----Origin URL
+https://developers.google.com/knowledge-graph/
 
-Licence: cc-by
-
----Licence
+Licence: Creative common attribute license 3.0
 
 ## API 
 
----Service URL
+https://graphqlbin.com/v2/nrj6FX
 
-- ---query
-- ---query
+- knowledge(name: String)
 
 Fields
 
-- field
-- field
+- name
+- description
+- details
+- score
 
