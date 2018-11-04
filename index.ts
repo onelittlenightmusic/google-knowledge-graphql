@@ -19,22 +19,7 @@ const knowledge =  async (name: string) => {
 }
 
 async function run() {
-	const typeDefs = `
-    # Comments in GraphQL are defined with the hash (#) symbol.
-    # This "Book" type can be used in other type declarations.
-    type Knowledge {
-      # Organization code (example: "10006"), String
-      name: String
-      description: String
-      details: String
-      score: Float
-    }
-    # The "Query" type is the root of all GraphQL queries.
-    # (A "Mutation" type will be covered later on.)
-    type Query {
-      knowledge(name: String!): [Knowledge]
-    }
-  `;
+	const typeDefs = 'schema.graphql';
 
   const resolvers = {
     Query: {

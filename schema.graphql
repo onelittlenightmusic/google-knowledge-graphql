@@ -1,0 +1,17 @@
+
+type Knowledge {
+    """Name"""
+    name: String
+    """Description"""
+    description: String
+    """Detail"""
+    details: String
+    """Score"""
+    score: Float
+}
+type Query {
+    """Get knowledge about a topic"""
+    knowledge(
+        """Topic name"""
+        name: String!): [Knowledge]
+}
