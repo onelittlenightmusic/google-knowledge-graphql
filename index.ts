@@ -35,9 +35,9 @@ async function run() {
 
   const formatResponse = (response:any) => {
     var meta = {
-      data_origin: "Data provided for free by IEX. View IEX’s Terms of Use",
-      source_url: "https://iextrading.com/developer",
-      lisence_type: "IEX’s Terms of Use: https://iextrading.com/api-exhibit-a"
+      data_origin: "Google Knowledge Graph Search API",
+      source_url: "https://developers.google.com/knowledge-graph/",
+      lisence_type: "cc-by 3.0"
     }
     return {
       ...response,
